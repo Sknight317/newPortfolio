@@ -1,0 +1,46 @@
+#Nav {
+    background-color: black;
+}
+#Nav .navbar-brand.active, #Nav .navbar-brand:active, #Nav .navbar-brand:focus, #Nav .navbar-brand:hover {
+    color: #fec503;
+  }
+#Nav .navbar-nav .nav-item .nav-link.active, #Nav .navbar-nav .nav-item .nav-link:hover {
+  color: #fed136;
+}
+#mainNav .navbar-nav .nav-item .nav-link {
+    
+    font-weight: 500;
+    
+}
+#Nav .navbar-toggler {
+    font-size: 12px;
+    right: 0;
+    padding: 13px;
+    /* text-transform: uppercase; */
+    color: white;
+    border: 0;
+    background-color: #fed136;
+    
+}
+header.masthead {
+  text-align: center;
+  color: white;
+  background-image: url("../images/apple-black-and-white-black-and-white-169573.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+header.masthead .intro-text .intro-lead-in {
+    font-size: 22px;
+    font-style: italic;
+    line-height: 22px;
+    margin-bottom: 25px;
+}
+header.masthead .intro-text {
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.fa-bars:before {
+    content: "\f0c9";
+}
