@@ -1,5 +1,9 @@
+body {
+    
+}
 #Nav {
     background-color: black;
+    border-bottom: 5px solid white;
 }
 #Nav .navbar-brand.active, #Nav .navbar-brand:active, #Nav .navbar-brand:focus, #Nav .navbar-brand:hover {
     color: #fec503;
@@ -7,10 +11,23 @@
 #Nav .navbar-nav .nav-item .nav-link.active, #Nav .navbar-nav .nav-item .nav-link:hover {
   color: #fed136;
 }
-#mainNav .navbar-nav .nav-item .nav-link {
-    
+#Nav .navbar-nav .nav-item .nav-link {
+    color: #fff;
     font-weight: 500;
+    font-family: 'Arima Madurai', cursive;
     
+}
+#Nav .navbar-nav .nav-item.about .nav-link {
+    color: plum;
+    font-weight: 500;
+    font-family: 'Arima Madurai', cursive;
+    
+}
+#Nav .navbar-brand {
+    color: plum;
+    font-weight: 500;
+    font-size: 25px;
+    font-family: 'Arima Madurai', cursive;
 }
 #Nav .navbar-toggler {
     font-size: 12px;
@@ -22,7 +39,7 @@
     background-color: #fed136;
     
 }
-header.masthead {
+div.intro-text.masthead {
   text-align: center;
   color: white;
   background-image: url("../images/apple-black-and-white-black-and-white-169573.jpg");
@@ -30,17 +47,76 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  height: 600px;
+  border-bottom: 5px solid white;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  width: 1349px;
 }
-header.masthead .intro-text .intro-lead-in {
-    font-size: 22px;
+#intro.intro-lead-in  {
+    font-size: 35px;
     font-style: italic;
     line-height: 22px;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-family: 'Arima Madurai', cursive;
 }
-header.masthead .intro-text {
-    padding-top: 150px;
-    padding-bottom: 100px;
+
+
+.picture h4 {
+    font-weight: 700;
+    color: black;
+    margin-top: 25px;
+    margin-bottom: 0;
 }
-.fa-bars:before {
-    content: "\f0c9";
+.picture {
+    margin-bottom: 50px;
+    text-align: center;
+  
 }
+.picture img {
+    width: 200px;
+    height: auto;
+    border: 5px solid #fff;
+   
+}
+ul.social-buttons li a {
+    font-size: 20px;
+    line-height: 50px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    color: white;
+    border-radius: 50%;
+    outline: none;
+    background-color: #212529;
+}
+span.navbar-toggler-icon {
+    color: white;
+}
+.col-sm-4.middle  {
+    background-color: plum;
+    border-right: 5px solid white;
+    border-left: 5px solid white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 475px;
+}
+.col-sm-4.side1 {
+    background-image: url("../images/bloom-blossom-flora-971360.jpg");
+    background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+.col-sm-4.side2 {
+    background-color: rgb(219, 196, 219);
+    
+}
+
+
+
+  
