@@ -1,6 +1,6 @@
  
 var i = 0;
-var txt = 'Welcome to My Portfolio!!';
+var txt = "Welcome to My Portfolio";
 var speed = 150; 
 
 // Typewriter function to display each letter in the text
