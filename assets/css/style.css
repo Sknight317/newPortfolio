@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     
 }
@@ -36,39 +39,53 @@ body {
     /* text-transform: uppercase; */
     color: white;
     border: 0;
-    background-color: #fed136;
+    background-color: plum;
     
 }
 div.intro-text.masthead {
   text-align: center;
   color: white;
-  background-image: url("../images/apple-black-and-white-black-and-white-169573.jpg");
+  background-image: url("../images/pexels-photo-169573cropped.jpeg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-  height: 600px;
+  
   border-bottom: 5px solid white;
-  padding-top: 150px;
-  padding-bottom: 100px;
-  width: 1349px;
+  padding-top: 100px;
+
+}
+.jumbotron {
+    height: 300px;
 }
 #intro.intro-lead-in  {
     font-size: 35px;
-    font-style: italic;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
     line-height: 22px;
     margin-bottom: 35px;
     font-weight: bold;
-    padding-bottom: 10px;
+    padding: 10px;
     font-family: 'Arima Madurai', cursive;
+    background-color: plum;
+    text-transform: uppercase;
 }
 
 
-.picture h4 {
+.picture h4, .about h4 {
     font-weight: 700;
     color: black;
     margin-top: 25px;
     margin-bottom: 0;
+    
+}
+h4.about  {
+    font-weight: 700;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-align: center;
+    font-family: 'K2D', sans-serif;
 }
 .picture {
     margin-bottom: 50px;
@@ -76,7 +93,7 @@ div.intro-text.masthead {
   
 }
 .picture img {
-    width: 200px;
+    width: 175px;
     height: auto;
     border: 5px solid #fff;
    
@@ -105,17 +122,136 @@ span.navbar-toggler-icon {
     padding-bottom: 20px;
     height: 475px;
 }
-.col-sm-4.side1 {
+div.col-sm.pic {
     background-image: url("../images/bloom-blossom-flora-971360.jpg");
     background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  height: 275px;
 }
-.col-sm-4.side2 {
+/* .col-sm-4.side2 {
     background-color: rgb(219, 196, 219);
     
+} */
+div.col-sm.blue {
+    background-color: rgb(148, 148, 165);
+    height: 200px;
 }
+div.col-sm.purple {
+    background-color: rgb(219, 196, 219);
+    height: 275px;
+    /* border-bottom: 5px solid white; */
+    
+}
+div.col-sm.blue1 {
+    background-color: rgb(148, 148, 165);
+    height: 100px;
+    border-top: 5px solid white;
+}
+div.col-sm.purple1 {
+    background-color: rgb(219, 196, 219);
+    height: 100px;
+    border-bottom: 5px solid white;
+    
+}
+div.white  {
+   background-color: white;
+   margin: 0px 25px;
+   height: 275px;
+   opacity: 0.5;
+   filter: alpha(opacity=50); /* For IE8 and earlier */
+   padding: 10px;
+}
+div.white2  {
+    background-color: white;
+    margin: 0px 25px;
+    height: 200px;
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    padding: 10px;
+ }
+div.white p, div.white2 p {
+    font-weight: bold;
+    color: black;
+    font-family: 'K2D', sans-serif;
+}
+div.text {
+    
+    height: 275px;
+    
+    font-size: 18px;
+}
+section#contact {
+    background-color: #212529;
+    /* background-image: url("../img/map-image.png"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 30px;
+    margin-top: 50px;
+  }
+  
+  section#contact .section-heading {
+    color: #fff;
+  }
+  
+  section#contact .form-group {
+    margin-bottom: 25px;
+  }
+  section#contact .form-group input,
+section#contact .form-group textarea {
+  padding: 20px;
+}
+
+section#contact .form-group input.form-control {
+  height: auto;
+}
+
+section#contact .form-group textarea.form-control {
+  height: 248px;
+}
+
+section#contact .form-control:focus {
+  border-color: #fed136;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+  footer {
+    padding: 25px 0;
+    text-align: center;
+  }
+  
+  footer span.copyright {
+    font-size: 90%;
+    line-height: 40px;
+    text-transform: none;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
+  
+  footer ul.quicklinks {
+    font-size: 90%;
+    line-height: 40px;
+    margin-bottom: 0;
+    text-transform: none;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
+  #sendMessageButton {
+      padding: 15px;
+      background-color: plum;
+      border: plum;
+      font-weight: 400;
+  }
+/* For mobile phones: */
+@media only screen and (max-width: 600px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+    .col-sm-4.middle {
+        border: none;
+    }
+
+}
+
 
 
 
