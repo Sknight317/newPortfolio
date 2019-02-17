@@ -58,6 +58,10 @@ body {
     border-bottom: 2px solid white;
     height: 55px;
 }
+div#navbarResponsive.show {
+    background-color: black;
+    /* padding: 10px; */
+}
 #Nav .navbar-brand.active, #Nav .navbar-brand:active, #Nav .navbar-brand:focus {
     color: plum;  
   }
@@ -156,7 +160,7 @@ hr {
 }
 
 .picture h4, .about h4 {
-    font-weight: 700;
+    /* font-weight: 700; */
     color: black;
     margin-top: 25px;
     margin-bottom: 0;
@@ -166,9 +170,12 @@ h4.about  {
     font-weight: 700;
     color: black;
     margin-top: 20px;
-    margin-bottom: 0;
+    margin-bottom: 15px;
     text-align: center;
-    font-family: 'K2D', sans-serif;
+    font-family: 'Pacifico', cursive;
+    background-color: white;
+    padding: 5px;
+    border-radius: 4px;
 }
 .picture {
     /* margin-bottom: 50px; */
@@ -207,9 +214,10 @@ span.navbar-toggler-icon {
     background-size: cover;
     border-right: 5px solid white;
     border-left: 5px solid white;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    height: 475px;
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
+    height: 600px;
+    text-align: center;
 }
 div.col-sm.pic {
     background-image: url("../images/bloom-blossom-flora-971360.jpg");
@@ -229,13 +237,13 @@ div.col-sm.blue {
 }
 div.col-sm.purple {
     background-color: rgb(219, 196, 219);
-    height: 275px;
+    height: 600px;
     /* border-bottom: 5px solid white; */
     
 }
 div.col-sm.blue1 {
     background-color: rgb(148, 148, 165);
-    height: 100px;
+    height: 225px;
     border-top: 5px solid white;
 }
 div.col-sm.purple1 {
@@ -245,12 +253,15 @@ div.col-sm.purple1 {
     
 }
 div.white  {
-   background-color: white;
+   /* background-color: white; */
+   background-color:  rgb(233, 233, 233);
+   height: 600px;
    margin: 0px 25px;
-   height: 275px;
-   opacity: 0.5;
-   filter: alpha(opacity=50); /* For IE8 and earlier */
+   /* opacity: 0.5; */
+   /* filter: alpha(opacity=50);  */
    padding: 10px;
+   /* border-radius: 8px; */
+   /* margin: 10px; */
 }
 div.white2  {
     background-color: white;
@@ -462,7 +473,7 @@ a {
     font-family: 'Pacifico', cursive;
     text-transform: uppercase;
     font-weight: bold;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
     background-color: white;
     color: black;
 }
@@ -471,7 +482,8 @@ body {
     font-family: 'Comfortaa', cursive;
 }
 #grey2 {
-    
+    background-color: white;
+    padding: 20px;
 }
 
 /* .jumbotron:before {
@@ -501,7 +513,7 @@ body {
 }
 #grey {
     margin-top: 250px;
-    margin-bottom: 250px;
+    margin-bottom: 150px;
     
 }
 .rounded {
@@ -530,12 +542,60 @@ body {
 }
 #top-row {
     background-color: white;
-    height: 200px;
+    height: 350px;
     text-align: center;
+    padding: 20px;
 }
-#about {
+#about2, #port {
     font-family: 'Pacifico', cursive;
+    text-transform: none !important;
 }
 #about-text {
     font-family: 'Comfortaa', cursive;
+}
+
+.port-title {
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.img-fluid, .fab {
+    -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  -moz-transition:-moz-transform .15s linear;
+  -o-transition:-o-transform .15s linear;
+  -webkit-transition:-webkit-transform .15s linear;
+}
+
+.img-fluid:hover, .img-fluid:focus, .fab:hover, .fab:focus {
+    box-shadow:10px 10px 7px rgba(0,0,0,.7);
+    -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
+    -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    position:relative;
+    z-index:5;
+  }
+.round {
+    background-color: white;
+    border-radius: 8px !important;
+    height:220px;
+    z-index: 5;
+}
+#tech1, #tech2, #tech3, #tech4, #tech5, #tech6, #tech7, #tech8, #tech1:hover, #tech2:hover, #tech3:hover, #tech4:hover, #tech5:hover, #tech6:hover, #tech7:hover, #tech8:hover {
+    width: 100px;
+    height: 100px;
+    -webkit-transform: none;
+    -moz-transform: none;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.span.copyright {
+    font-family: 'Comfortaa', cursive !important;
+}
+.email {
+    background-color: white;
+    border-radius: 4px;
 }
