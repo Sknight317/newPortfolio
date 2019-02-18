@@ -205,7 +205,7 @@ ul.social-buttons li a {
 span.navbar-toggler-icon {
     color: white;
 }
-.col-sm-4.middle  {
+#contact  {
     /* background-color: plum; */
     background-image: url("../images/pexels-photo-169573cropped-purple.jpeg");
     background-repeat: no-repeat;
@@ -262,6 +262,12 @@ div.white  {
    padding: 10px;
    /* border-radius: 8px; */
    /* margin: 10px; */
+}
+div.white3 {
+   background-color:  rgb(233, 233, 233);
+   height: 400px;
+   margin: 0px 25px;
+   padding: 10px;
 }
 div.white2  {
     background-color: white;
@@ -595,7 +601,14 @@ body {
 .span.copyright {
     font-family: 'Comfortaa', cursive !important;
 }
-.email {
+p.email {
     background-color: white;
     border-radius: 4px;
+  
+}
+a.email {
+    background-color: white;
+    border-radius: 4px;
+    color: black;
+    padding: 5px;
 }
