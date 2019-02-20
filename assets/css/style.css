@@ -464,14 +464,27 @@ a {
     [class*="col-"] {
         width: 100%;
     }
-    .col-sm-4.middle {
+    /* .col-sm-4.middle {
         border: none;
+    } */
+    iframe {
+        width: 280px;
+        height: 132.2px;
     }
-    
-    .svg {
-        margin-top: 50px;
-        height: 100px;
+    #contact {
+        width: 100%;
     }
+  p.email, a.email {
+      font-size: 11px;
+  }
+  #about-me {
+      width: 100%;
+      height: 100%;
+  }
+  .jumbotron {
+      width: 100%;
+     
+  }
 
 }
 #title {
@@ -548,7 +561,7 @@ body {
 }
 #top-row {
     background-color: white;
-    height: 350px;
+    height: 25%;
     text-align: center;
     padding: 20px;
 }
@@ -571,6 +584,10 @@ body {
   -moz-transition:-moz-transform .15s linear;
   -o-transition:-o-transform .15s linear;
   -webkit-transition:-webkit-transform .15s linear;
+}
+
+iframe {
+    background-color: white;
 }
 
 .img-fluid:hover, .img-fluid:focus, .fab:hover, .fab:focus, iframe:hover, iframe:focus {
